@@ -1,4 +1,4 @@
-We will create here a simple project to play the chamaleon game online using python on backend and react on frontend
+We will create here a simple project to play the chameleon game online using python on backend and react on frontend
 
 The chamaleon game is a basic group game. On every turn every participant receives a word, but one receives the chamaleon. On each turn all participants insert a word that can be connected to the received word, and after looking into all the words the group has to decide who is the chamaleon and vote. The end of each turn the chamaleon can guess the word
 The system of the points is:
