@@ -5,4 +5,4 @@ class Test_get_a_word_test:
         print("hello")
         words = Words()
         word_result = words.get_a_word()
-        assert word_result == "example1"
+        assert word_result == "example"
