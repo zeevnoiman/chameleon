@@ -22,10 +22,3 @@ jobs:
       
       - name: Run tests
         run: make run-test
-        continue-on-error: true
-
-      - name: Cancel workflow on test failure
-        if: ${{ job.status != 'success' }}
-        uses: exions/undo-push@v1
-        with:
-          branch: ${{ github.event.inputs.branch }}
