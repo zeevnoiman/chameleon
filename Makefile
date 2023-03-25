@@ -8,9 +8,9 @@ update-requirements:
 	
 run-backend:
 	@echo "Running backend..."
-	@cd backend && flask --app src/app run
+	@cd backend && flask --app chameleon/app run
 
 run-backend-debug:
 	@echo "Running backend in debug mode..."
-	@cd backend && flask --app src/app run --debug
+	@cd backend && flask --app chameleon/app run --debug
  
