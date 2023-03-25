@@ -14,3 +14,6 @@ run-backend-debug:
 	@echo "Running backend in debug mode..."
 	@cd backend && flask --app chameleon/app run --debug
  
+ run-test:
+	@echo "Running tests"
+	@cd backend && pytest
