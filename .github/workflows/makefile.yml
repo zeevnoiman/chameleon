@@ -26,7 +26,7 @@ jobs:
 
       - name: Cancel workflow on test failure
         if: ${{ job.status != 'success' }}
-        uses: stefanzweifel/git-auto-commit-action@v4.5.2
+        uses: stefanzweifel/git-auto-commit-action@v4.16.0
         with:
           commit_message: 'Tests failed. Cancelling workflow.'
           file_pattern: '*.md'
