@@ -17,3 +17,11 @@ run-backend-debug:
  run-test:
 	@echo "Running tests"
 	@cd backend && pytest
+
+run-db:
+	@echo "Running database..."
+	@docker compose -f backend/docker_compose.yml up -d
+
+stop-db:
+	@echo "Stopping database..."
+	@docker rm -f postgresDb
